@@ -65,4 +65,3 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/array.prototype.some.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=array.prototype.some
->>>>>>> 4c018f8... Read me.
