@@ -1,12 +1,9 @@
 var some = require('../implementation');
 var bind = require('function-bind');
 var test = require('tape');
-var runTests = require('./tests');
+var hasStrictMode = require('has-strict-mode')();
 
-var hasStrictMode = (function () {
-	'use strict';
-	return !this;
-}());
+var runTests = require('./tests');
 
 test('as a function', function (t) {
 	t.test('bad array/this value', function (st) {
