@@ -25,8 +25,8 @@ test('shimmed', function (t) {
 	var supportsStrictMode = (function () { return typeof this === 'undefined'; }());
 
 	t.test('bad array/this value', { skip: !supportsStrictMode }, function (st) {
-		st.throws(function () { return Array.prototype.some.call(undefined, 'a'); }, TypeError, 'undefined is not an object');
-		st.throws(function () { return Array.prototype.some.call(null, 'a'); }, TypeError, 'null is not an object');
+		st['throws'](function () { return Array.prototype.some.call(undefined, 'a'); }, TypeError, 'undefined is not an object');
+		st['throws'](function () { return Array.prototype.some.call(null, 'a'); }, TypeError, 'null is not an object');
 		st.end();
 	});
 
@@ -46,6 +46,7 @@ test('shimmed', function (t) {
 
 			Array.prototype.some.call('foo', function () {
 				'use strict';
+
 				sst.equal(typeof this, 'string');
 				sst.equal(this, context);
 				return true;

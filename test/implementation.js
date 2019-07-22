@@ -7,8 +7,8 @@ var runTests = require('./tests');
 
 test('as a function', function (t) {
 	t.test('bad array/this value', function (st) {
-		st.throws(bind.call(some, null, undefined, 'a'), TypeError, 'undefined is not an object');
-		st.throws(bind.call(some, null, null, 'a'), TypeError, 'null is not an object');
+		st['throws'](bind.call(some, null, undefined, 'a'), TypeError, 'undefined is not an object');
+		st['throws'](bind.call(some, null, null, 'a'), TypeError, 'null is not an object');
 		st.end();
 	});
 
@@ -28,6 +28,7 @@ test('as a function', function (t) {
 
 			some.call('foo', function () {
 				'use strict';
+
 				sst.equal(typeof this, 'string');
 				sst.equal(this, context);
 				return true;
