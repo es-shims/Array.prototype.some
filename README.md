@@ -51,15 +51,15 @@ assert.deepEqual(arr.some(threeOrLarger), some(arr, threeOrLarger));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/array.prototype.some
-[npm-version-svg]: http://versionbadg.es/ljharb/Array.prototype.some.svg
-[travis-svg]: https://travis-ci.org/ljharb/Array.prototype.some.svg
-[travis-url]: https://travis-ci.org/ljharb/Array.prototype.some
-[deps-svg]: https://david-dm.org/ljharb/Array.prototype.some.svg
-[deps-url]: https://david-dm.org/ljharb/Array.prototype.some
-[dev-deps-svg]: https://david-dm.org/ljharb/Array.prototype.some/dev-status.svg
-[dev-deps-url]: https://david-dm.org/ljharb/Array.prototype.some#info=devDependencies
-[testling-svg]: https://ci.testling.com/ljharb/Array.prototype.some.png
-[testling-url]: https://ci.testling.com/ljharb/Array.prototype.some
+[npm-version-svg]: http://versionbadg.es/es-shims/Array.prototype.some.svg
+[travis-svg]: https://travis-ci.org/es-shims/Array.prototype.some.svg
+[travis-url]: https://travis-ci.org/es-shims/Array.prototype.some
+[deps-svg]: https://david-dm.org/es-shims/Array.prototype.some.svg
+[deps-url]: https://david-dm.org/es-shims/Array.prototype.some
+[dev-deps-svg]: https://david-dm.org/es-shims/Array.prototype.some/dev-status.svg
+[dev-deps-url]: https://david-dm.org/es-shims/Array.prototype.some#info=devDependencies
+[testling-svg]: https://ci.testling.com/es-shims/Array.prototype.some.png
+[testling-url]: https://ci.testling.com/es-shims/Array.prototype.some
 [npm-badge-png]: https://nodei.co/npm/array.prototype.some.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/array.prototype.some.svg
 [license-url]: LICENSE
