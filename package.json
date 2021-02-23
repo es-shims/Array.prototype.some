@@ -24,7 +24,7 @@
 		"pretest": "npm run --silent lint && evalmd README.md",
 		"test": "npm run --silent tests-only",
 		"posttest": "aud --production",
-		"tests-only": "tape 'test/**/*.js'",
+		"tests-only": "nyc tape 'test/**/*.js'",
 		"testling": "testling --html > test.html",
 		"lint": "eslint .",
 		"postlint": "es-shim-api --bound",
