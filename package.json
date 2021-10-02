@@ -22,11 +22,12 @@
 	"scripts": {
 		"prepublish": "not-in-publish || safe-publish-latest",
 		"prepublishOnly": "safe-publish-latest",
-		"pretest": "npm run --silent lint && evalmd README.md",
+		"pretest": "npm run --silent lint",
 		"test": "npm run --silent tests-only",
 		"posttest": "aud --production",
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"testling": "testling --html > test.html",
+		"prelint": "evalmd README.md",
 		"lint": "eslint .",
 		"postlint": "es-shim-api --bound",
 		"version": "auto-changelog && git add CHANGELOG.md",
@@ -54,12 +55,12 @@
 		"is-string": "^1.0.5"
 	},
 	"devDependencies": {
-		"@es-shims/api": "^2.1.2",
-		"@ljharb/eslint-config": "^17.5.1",
-		"aud": "^1.1.4",
-		"auto-changelog": "^2.2.1",
-		"eslint": "^7.23.0",
-		"evalmd": "0.0.19",
+		"@es-shims/api": "^2.2.1",
+		"@ljharb/eslint-config": "^18.0.0",
+		"aud": "^1.1.5",
+		"auto-changelog": "^2.3.0",
+		"eslint": "^7.32.0",
+		"evalmd": "^0.0.19",
 		"foreach": "^2.0.5",
 		"function-bind": "^1.1.1",
 		"functions-have-names": "^1.2.2",
@@ -68,7 +69,7 @@
 		"indexof": "^0.0.1",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.2.2"
+		"tape": "^5.3.1"
 	},
 	"testling": {
 		"files": [
