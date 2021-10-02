@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.3](https://github.com/es-shims/Array.prototype.some/compare/v1.1.2...v1.1.3) - 2021-10-01
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`20c70bf`](https://github.com/es-shims/Array.prototype.some/commit/20c70bf8a5008e1deabceac5a7703aba80d75d0e)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`e8b4891`](https://github.com/es-shims/Array.prototype.some/commit/e8b4891ab0491537df20c1faa5697edf930e7d94)
+- [readme] fix repo URLs; remove travis badge [`c27ea2b`](https://github.com/es-shims/Array.prototype.some/commit/c27ea2b73230dfd0e9bdb5a9d91dfc6847b05b72)
+- [Deps] update `es-abstract`, `is-string` [`f60bf0a`](https://github.com/es-shims/Array.prototype.some/commit/f60bf0a8f77d96c6234b14f0169dc6a80ec734eb)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `functions-have-names`, `has-strict-mode`, `tape` [`c9cb970`](https://github.com/es-shims/Array.prototype.some/commit/c9cb9700e073503010e981fc08905168434b6e84)
+- [actions] update workflows [`c2c42ba`](https://github.com/es-shims/Array.prototype.some/commit/c2c42ba385cdb78e585dd79f364d7cb6b7d3e858)
+- [readme] add github actions/codecov badges [`76ff37a`](https://github.com/es-shims/Array.prototype.some/commit/76ff37aa74764e3d081e4865067573b61ecde018)
+- [Robustness] use `callBind.apply` [`3c76337`](https://github.com/es-shims/Array.prototype.some/commit/3c7633797e7fde64f0f68a4282efdecf4ac65568)
+- [Tests] run `nyc` on all tests [`2c3f8f0`](https://github.com/es-shims/Array.prototype.some/commit/2c3f8f0cfd2221852d67f9659fa30d876bdeaabf)
+- [Dev Deps] update `eslint`, `tape` [`b23e9e6`](https://github.com/es-shims/Array.prototype.some/commit/b23e9e66c033bdcb809aa022d184d1ed8b1984ca)
+- [Deps] update `call-bind`, `es-abstract` [`3c83fa6`](https://github.com/es-shims/Array.prototype.some/commit/3c83fa6bfc36b4351cb36acdfcfcfa50214975a4)
+- [Tests] use `globalthis` package [`1d34f59`](https://github.com/es-shims/Array.prototype.some/commit/1d34f594969ad55909b87e218c9ba9fe8f35fb8d)
+- [meta] use `prepublishOnly` script for npm 7+ [`864d3fe`](https://github.com/es-shims/Array.prototype.some/commit/864d3fe1862e50ffab561da7e251ad372db7c47e)
+- [Deps] update `es-abstract` [`beb949b`](https://github.com/es-shims/Array.prototype.some/commit/beb949b2acbfc232f6ab245c845522142f2bc9a4)
+- [meta] remove `audit-level` [`e208227`](https://github.com/es-shims/Array.prototype.some/commit/e2082273aec19916a7ff1e0e02dc3e49abbc418a)
+
 ## [v1.1.2](https://github.com/es-shims/Array.prototype.some/compare/v1.1.1...v1.1.2) - 2020-11-18
 
 ### Commits
