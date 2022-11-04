@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.1.4](https://github.com/es-shims/Array.prototype.some/compare/v1.1.3...v1.1.4) - 2022-11-04
+
+### Commits
+
+- [actions] reuse common workflows [`1c2731e`](https://github.com/es-shims/Array.prototype.some/commit/1c2731e279acefdaf36e0448312772d9a08f47d9)
+- [meta] use `npmignore` to autogenerate an npmignore file [`ccd6022`](https://github.com/es-shims/Array.prototype.some/commit/ccd602272b888b6d74d70d79a03f985b4dfd1ac9)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`7be6e41`](https://github.com/es-shims/Array.prototype.some/commit/7be6e413b7790ae0b2222cadc0dec5f85425b0eb)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `globalthis`, `tape` [`490694e`](https://github.com/es-shims/Array.prototype.some/commit/490694eae047bc1f9adbae774fc45a577e175baf)
+- [Deps] update `define-properties`, `es-abstract` [`2fae76c`](https://github.com/es-shims/Array.prototype.some/commit/2fae76c8649e907cc22366445f045e17072b9d8e)
+- [actions] update rebase action to use reusable workflow [`c21e0cd`](https://github.com/es-shims/Array.prototype.some/commit/c21e0cd15d6a48b62aac0bd4ad2ff40c7b5b52e3)
+- [actions] update codecov uploader [`c25b834`](https://github.com/es-shims/Array.prototype.some/commit/c25b8346385a54c374e7cb6459f58f2c40cf1e21)
+- [Deps] update `es-abstract` [`13de303`](https://github.com/es-shims/Array.prototype.some/commit/13de303003e97a93250b3e6e874d0c0c77b442a4)
+
 ## [v1.1.3](https://github.com/es-shims/Array.prototype.some/compare/v1.1.2...v1.1.3) - 2021-10-01
 
 ### Commits
