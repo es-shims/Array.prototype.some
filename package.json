@@ -63,7 +63,6 @@
 		"eslint": "=8.8.0",
 		"evalmd": "^0.0.19",
 		"foreach": "^2.0.6",
-		"function-bind": "^1.1.1",
 		"functions-have-names": "^1.2.3",
 		"globalthis": "^1.0.3",
 		"has-strict-mode": "^1.0.1",
